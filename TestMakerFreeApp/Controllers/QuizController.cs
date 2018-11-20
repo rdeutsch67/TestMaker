@@ -19,7 +19,7 @@ namespace TestMakerFreeWebApp.Controllers
         #region Constructor
         public QuizController(ApplicationDbContext context)
         {
-            // Instantiate the ApplicationDbContext through DIII
+            // Instantiate the ApplicationDbContext through DI
             DbContext = context;
         }
         #endregion Constructor
