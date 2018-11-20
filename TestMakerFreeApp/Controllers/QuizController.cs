@@ -56,7 +56,7 @@ namespace TestMakerFreeWebApp.Controllers
         
         #region RESTful conventions methods
         /// <summary>
-        /// Adds a new Quiz to the Database
+        /// Adds a new Quiz to the Datenbank
         /// </summary>
         /// <param name="m">The QuizViewModel containing the data to insert</param>
         [HttpPut]
