@@ -31,5 +31,23 @@ export class QuizComponent {
       console.log("Invalid id: routing back to home...");
       this.router.navigate(["home"]);
     }
+
   }
+
+  onEdit() {
+    this.router.navigate(["quiz/edit", this.quiz.Id]);
+  }
+
+  onDelete() {
+    if (confirm("Do you really want to delete this quiz?")) {
+      var url = this.baseUrl + "api/quiz/" + this.quiz.Id;
+      this.http
+        .delete(url)
+        .subscribe(res => {
+          console.log("Quiz " + this.quiz.Id + " has been deleted.");
+          this.router.navigate(["home"]);
+        }, error => console.log(error));
+    }
+  }
+
 }
