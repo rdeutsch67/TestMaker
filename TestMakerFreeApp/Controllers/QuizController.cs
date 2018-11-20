@@ -58,7 +58,7 @@ namespace TestMakerFreeWebApp.Controllers
         /// <summary>
         /// Adds a new Quiz to the Datenbank
         /// </summary>
-        /// <param name="m">The QuizViewModel containing the data to insert</param>
+        /// <param name="model">The QuizViewModel containing the data to insert</param>
         [HttpPut]
         public IActionResult Put([FromBody]QuizViewModel model)
         {
@@ -99,7 +99,7 @@ namespace TestMakerFreeWebApp.Controllers
         /// <summary>
         /// Edit the Quiz with the given {id}
         /// </summary>
-        /// <param name="m">The QuizViewModel containing the data to update</param>
+        /// <param name="model">The QuizViewModel containing the data to update</param>
         [HttpPost]
         public IActionResult Post([FromBody]QuizViewModel model)
         {
