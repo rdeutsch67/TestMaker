@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAK;EACH,KAAK,EAHM,uBAAuB;;AAMpC,qBAAsB;EACpB,SAAS,EAAE,KAAK",
+"sources": ["result-edit.component.scss"],
+"names": [],
+"file": "result-edit.component.css"
+}

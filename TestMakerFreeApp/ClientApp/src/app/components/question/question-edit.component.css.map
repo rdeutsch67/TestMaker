@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,uBAAwB;EACtB,SAAS,EAAE,KAAK",
+"sources": ["question-edit.component.scss"],
+"names": [],
+"file": "question-edit.component.css"
+}

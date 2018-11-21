@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACZ,SAAS,EAAE,KAAK",
+"sources": ["result-list.component.scss"],
+"names": [],
+"file": "result-list.component.css"
+}

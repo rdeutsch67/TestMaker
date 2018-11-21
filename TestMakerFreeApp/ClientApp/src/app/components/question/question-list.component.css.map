@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACd,SAAS,EAAE,KAAK",
+"sources": ["question-list.component.scss"],
+"names": [],
+"file": "question-list.component.css"
+}
