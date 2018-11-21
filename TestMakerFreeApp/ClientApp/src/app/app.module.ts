@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +12,10 @@ import {AboutComponent} from "./components/about/about.component";
 import {LoginComponent} from "./components/login/login.component";
 import {PageNotFoundComponent} from "./components/pagenotfound/pagenotfound.component";
 import {QuizEditComponent} from './components/quiz/quiz-edit.component';
+import {QuestionListComponent} from "./components/question/question-list.component";
+import {QuestionEditComponent} from "./components/question/question-edit.component";
+import {AnswerEditComponent} from "./components/answer/answer-edit.component";
+import {AnswerListComponent} from "./components/answer/answer-list.component";
 
 @NgModule({
   declarations: [
@@ -22,6 +25,10 @@ import {QuizEditComponent} from './components/quiz/quiz-edit.component';
     QuizListComponent,
     QuizComponent,
     QuizEditComponent,
+    QuestionEditComponent,
+    QuestionListComponent,
+    AnswerEditComponent,
+    AnswerListComponent,
     AboutComponent,
     LoginComponent,
     PageNotFoundComponent
@@ -36,6 +43,10 @@ import {QuizEditComponent} from './components/quiz/quiz-edit.component';
       { path: 'quiz/create', component: QuizEditComponent },
       { path: 'quiz/edit/:id', component: QuizEditComponent },
       { path: 'quiz/:id', component: QuizComponent },
+      { path: 'question/create/:id', component: QuestionEditComponent },
+      { path: 'question/edit/:id', component: QuestionEditComponent },
+      { path: 'answer/create/:id', component: AnswerEditComponent },
+      { path: 'answer/edit/:id', component: AnswerEditComponent },
       { path: 'about', component: AboutComponent },
       { path: 'login', component: LoginComponent },
       { path: '**', component: PageNotFoundComponent }
