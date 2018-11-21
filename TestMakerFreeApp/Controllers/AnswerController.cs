@@ -1,7 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using TestMakerFreeWebApp.ViewModels;
+using TestMakerFreeApp.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
 using TestMakerFreeApp.Data;

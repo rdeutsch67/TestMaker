@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TestMakerFreeWebApp.ViewModels
+namespace TestMakerFreeApp.ViewModels
 {
     [JsonObject(MemberSerialization.OptOut)]
     public class QuizViewModel

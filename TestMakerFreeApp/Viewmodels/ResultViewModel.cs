@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-namespace TestMakerFreeWebApp.ViewModels
+namespace TestMakerFreeApp.ViewModels
 {
     [JsonObject(MemberSerialization.OptOut)]
     public class ResultViewModel
