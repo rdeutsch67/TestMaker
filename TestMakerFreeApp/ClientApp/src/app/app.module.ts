@@ -16,6 +16,8 @@ import {QuestionListComponent} from "./components/question/question-list.compone
 import {QuestionEditComponent} from "./components/question/question-edit.component";
 import {AnswerEditComponent} from "./components/answer/answer-edit.component";
 import {AnswerListComponent} from "./components/answer/answer-list.component";
+import {ResultListComponent} from "./components/result/result-list.component";
+import {ResultEditComponent} from "./components/result/result-edit.component";
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import {AnswerListComponent} from "./components/answer/answer-list.component";
     QuestionListComponent,
     AnswerEditComponent,
     AnswerListComponent,
+    ResultEditComponent,
+    ResultListComponent,
     AboutComponent,
     LoginComponent,
     PageNotFoundComponent
@@ -47,6 +51,8 @@ import {AnswerListComponent} from "./components/answer/answer-list.component";
       { path: 'question/edit/:id', component: QuestionEditComponent },
       { path: 'answer/create/:id', component: AnswerEditComponent },
       { path: 'answer/edit/:id', component: AnswerEditComponent },
+      { path: 'result/create/:id', component: ResultEditComponent },
+      { path: 'result/edit/:id', component: ResultEditComponent },
       { path: 'about', component: AboutComponent },
       { path: 'login', component: LoginComponent },
       { path: '**', component: PageNotFoundComponent }
