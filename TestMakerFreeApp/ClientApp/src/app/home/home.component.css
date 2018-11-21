@@ -6,7 +6,7 @@ quiz-list {
   float: left; }
 
 quiz-list.latest {
-  background-color: rgba(240, 183, 237, 0.55); }
+  background-color: rgba(238, 215, 208, 0.5); }
 
 quiz-list.byTitle {
   background-color: rgba(155, 240, 142, 0.55); }
