@@ -19,15 +19,15 @@ export class AnswerEditComponent {
               private http: HttpClient,
               @Inject('BASE_URL') private baseUrl: string) {
 
-    // create an empty object from the Quiz interface
+    // create an empty object from the Answer interface
     this.answer = <Answer>{};
     let id = +this.activatedRoute.snapshot.params["id"];
     // check if we're in edit mode or not
     this.editMode = (this.activatedRoute.snapshot.url[1].path === "edit");
 
     if (this.editMode) {
-      // fetch the quiz from the server
-      let url = this.baseUrl + "api/question/" + id;
+      // fetch the answer from the server
+      let url = this.baseUrl + "api/answer/" + id;
       this.http.get<Answer>(url).subscribe(res => {
         this.answer = res;
         this.title = "Edit - " + this.answer.Text;
