@@ -1,0 +1,9 @@
+$text-color: rgba(77, 68, 240, 0.89);
+
+body {
+  color: $text-color;
+}
+
+.result-edit textarea {
+  min-width: 500px;
+}

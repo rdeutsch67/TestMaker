@@ -1,0 +1,22 @@
+//$color_latest: rgba(240, 196, 186, 0.55);
+$color_latest: rgba(240, 183, 237, 0.55);
+$color_byTitle: rgba(155, 240, 142, 0.55);
+$color_random: rgba(119, 218, 240, 0.55);
+
+
+quiz-list {
+  width: 400px;
+  display: block;
+  padding: 2px 20px;
+  margin: 2px 5px;
+  float: left;
+}
+quiz-list.latest {
+  background-color: $color_latest;
+}
+quiz-list.byTitle {
+  background-color: $color_byTitle;
+}
+quiz-list.random {
+  background-color: $color_random;
+}
