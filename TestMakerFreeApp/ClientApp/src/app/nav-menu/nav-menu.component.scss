@@ -6,8 +6,8 @@ li .glyphicon {
 li.link-active a,
 li.link-active a:hover,
 li.link-active a:focus {
-    background-color: #c73d2f;
-    color: white;
+    background-color: #c7795a;
+    color: yellow;
 }
 
 /* Keep the nav menu independent of scrolling and on top of other items */
@@ -28,7 +28,7 @@ li.link-active a:focus {
     .navbar {
         border-radius: 0px;
         border-width: 0px;
-        height: 100%;
+        width: 100%;
     }
     .navbar-header {
         float: none;

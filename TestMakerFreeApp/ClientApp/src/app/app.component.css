@@ -2,6 +2,9 @@
   /* On small screens, the nav menu spans the full width of the screen.
   Leave a space for it. */
   .body-content {
-    padding-top: 50px; } }
+    padding-top: 30px; } }
+.starter-template {
+  padding: 1rem 1.5rem;
+  text-align: left; }
 
 /*# sourceMappingURL=app.component.css.map */

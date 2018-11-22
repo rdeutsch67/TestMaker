@@ -2,18 +2,18 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nav-menu',
-  templateUrl: './nav-menu.component.html',
-  styleUrls: ['./nav-menu.component.css']
+  //styleUrls: ['./nav-menu.component.css'],
+  templateUrl: './nav-menu.component.html'
 })
 
 export class NavMenuComponent {
-  isExpanded = false;
+  isCollapsed = true;
 
   collapse() {
-    this.isExpanded = false;
+    this.isCollapsed = true;
   }
 
   toggle() {
-    this.isExpanded = !this.isExpanded;
+    this.isCollapsed = !this.isCollapsed;
   }
 }
