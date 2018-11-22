@@ -19,6 +19,7 @@ import {AnswerListComponent} from "./components/answer/answer-list.component";
 import {ResultListComponent} from "./components/result/result-list.component";
 import {ResultEditComponent} from "./components/result/result-edit.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {QuizSearchComponent} from "./components/quiz/quiz-search.component";
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     QuizListComponent,
     QuizComponent,
     QuizEditComponent,
+    QuizSearchComponent,
     QuestionEditComponent,
     QuestionListComponent,
     AnswerEditComponent,
