@@ -18,6 +18,7 @@ import {AnswerEditComponent} from "./components/answer/answer-edit.component";
 import {AnswerListComponent} from "./components/answer/answer-list.component";
 import {ResultListComponent} from "./components/result/result-list.component";
 import {ResultEditComponent} from "./components/result/result-edit.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import {ResultEditComponent} from "./components/result/result-edit.component";
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot([
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent, pathMatch: 'full' },

@@ -3,5 +3,8 @@
   Leave a space for it. */
   .body-content {
     padding-top: 50px; } }
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
 
 /*# sourceMappingURL=app.component.css.map */
