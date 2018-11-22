@@ -6870,4 +6870,11 @@ a.text-dark:hover, a.text-dark:focus {
 .dropdown-menu .dropdown-header {
   color: #868e96; }
 
+/*bootswatch sketchy theme*/
+/*
+@import '../node_modules/bootswatch/dist/sketchy/variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootswatch/dist/sketchy/bootswatch';
+*/
+
 /*# sourceMappingURL=styles.css.map */
