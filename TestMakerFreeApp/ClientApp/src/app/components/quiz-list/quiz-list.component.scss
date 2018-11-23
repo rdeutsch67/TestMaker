@@ -1,11 +1,11 @@
 .panel {
   margin-bottom: 10px;
   .panel-heading {
-    color: #fefefe;
+    color: #fe34a7;
     .glyphicon {
       float: right;
       font-size: 41px;
-      color: #d6d6d6;
+      color: #d61317;
     }
   }
 
@@ -18,7 +18,7 @@
         overflow: auto;
         cursor: pointer;
         &:hover {
-          background-color: #dae9f5;
+          background-color: #f5ccef;
           &:before {
             display: inline-block;
             float: right;
@@ -30,8 +30,8 @@
         img {
           display: block;
           float: left;
-          width: 50px;
-          height: 50px;
+          width: 40px;
+          height: 40px;
           background-color: #ffffff;
           border: 1px solid #707d8c;
           padding: 2px;
@@ -41,49 +41,45 @@
     }
   }
   &.latest {
-    border-color: #384a5d;
     .panel-heading {
-      background-color: #384a5d;
+      background-color: #b0e3f5;
+    }
+    .panel-body {
+      .list-group {
+        .list-group-item {
+          &:hover {
+            background-color: #b0e3f5;
+          }
+        }
+      }
     }
   }
   &.byTitle {
-    border-color: #4b657f;
     .panel-heading {
-      background-color: #4b657f;
+      background-color: #f5e1d1;
+    }
+    .panel-body {
+      .list-group {
+        .list-group-item {
+          &:hover {
+            background-color: #f5e1d1;
+          }
+        }
+      }
     }
   }
   &.random {
-    border-color: #617992;
     .panel-heading {
-      background-color: #617992;
+      background-color: #c9f5ad;
+    }
+    .panel-body {
+      .list-group {
+        .list-group-item {
+          &:hover {
+            background-color: #c9f5ad;
+          }
+        }
+      }
     }
   }
 }
-
-/*
-.list-group-item {
-  cursor: pointer;
-}
-
-
-ul.quizzes li {
-  color: #1023cb;
-  cursor: pointer;
-}
-
-ul.quizzes li {
-  list-style-type: disc;
-}
-
-!* ab 768px Breite *!
-@media (min-width: 768px) {
-  ul.quizzes li {
-    color: #1023cb;
-    cursor: pointer;
-  }
-
-  ul.quizzes li {
-    list-style-type: circle;
-  }
-}
-*/

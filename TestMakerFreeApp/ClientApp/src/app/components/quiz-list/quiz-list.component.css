@@ -1,11 +1,11 @@
 .panel {
   margin-bottom: 10px; }
   .panel .panel-heading {
-    color: #fefefe; }
+    color: #fe34a7; }
     .panel .panel-heading .glyphicon {
       float: right;
       font-size: 41px;
-      color: #d6d6d6; }
+      color: #d61317; }
   .panel .panel-body {
     padding: 0; }
     .panel .panel-body .list-group {
@@ -15,7 +15,7 @@
         overflow: auto;
         cursor: pointer; }
         .panel .panel-body .list-group .list-group-item:hover {
-          background-color: #dae9f5; }
+          background-color: #f5ccef; }
           .panel .panel-body .list-group .list-group-item:hover:before {
             display: inline-block;
             float: right;
@@ -25,51 +25,23 @@
         .panel .panel-body .list-group .list-group-item img {
           display: block;
           float: left;
-          width: 50px;
-          height: 50px;
+          width: 40px;
+          height: 40px;
           background-color: #ffffff;
           border: 1px solid #707d8c;
           padding: 2px;
           margin: 0 6px 0 0; }
-  .panel.latest {
-    border-color: #384a5d; }
-    .panel.latest .panel-heading {
-      background-color: #384a5d; }
-  .panel.byTitle {
-    border-color: #4b657f; }
-    .panel.byTitle .panel-heading {
-      background-color: #4b657f; }
-  .panel.random {
-    border-color: #617992; }
-    .panel.random .panel-heading {
-      background-color: #617992; }
-
-/*
-.list-group-item {
-  cursor: pointer;
-}
-
-
-ul.quizzes li {
-  color: #1023cb;
-  cursor: pointer;
-}
-
-ul.quizzes li {
-  list-style-type: disc;
-}
-
-!* ab 768px Breite *!
-@media (min-width: 768px) {
-  ul.quizzes li {
-    color: #1023cb;
-    cursor: pointer;
-  }
-
-  ul.quizzes li {
-    list-style-type: circle;
-  }
-}
-*/
+  .panel.latest .panel-heading {
+    background-color: #b0e3f5; }
+  .panel.latest .panel-body .list-group .list-group-item:hover {
+    background-color: #b0e3f5; }
+  .panel.byTitle .panel-heading {
+    background-color: #f5e1d1; }
+  .panel.byTitle .panel-body .list-group .list-group-item:hover {
+    background-color: #f5e1d1; }
+  .panel.random .panel-heading {
+    background-color: #c9f5ad; }
+  .panel.random .panel-body .list-group .list-group-item:hover {
+    background-color: #c9f5ad; }
 
 /*# sourceMappingURL=quiz-list.component.css.map */
