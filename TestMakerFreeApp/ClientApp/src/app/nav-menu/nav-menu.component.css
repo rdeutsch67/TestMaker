@@ -1,55 +1,33 @@
-/*
-Error: Invalid CSS after "    &amp": expected "{", was ";"
-        on line 17 of nav-menu.component.scss
+.navbar-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 15px 10px 15px 0px; }
 
-12:       margin-right: 10px;
-13:     }
-14:     &&amp
-15:     .link-active a,
-16:     &amp
-17:   ;
-18:     .link-active a:hover,
-19:     &amp
-20:   ;
-21:     .link-active a:focus {
-22:       background-color: #4189C7;
+@media (min-width: 768px) {
+  .main-nav {
+    top: 0px;
+    width: 100%;
+    min-width: 180px; }
+    .main-nav .navbar {
+      border-radius: 5px 5px 5px 5px;
+      border-width: 5px;
+      height: 80px; }
+      .main-nav .navbar ul {
+        float: left; }
+      .main-nav .navbar li {
+        float: left;
+        font-size: 15px;
+        margin: 6px; }
+        .main-nav .navbar li a {
+          padding: 10px 16px;
+          border-radius: 4px; }
+    .main-nav .navbar-header {
+      float: left;
+      display: none; }
+    .main-nav .navbar-collapse {
+      padding: 0px; } }
 
-Backtrace:
-nav-menu.component.scss:17
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1308:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1238:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1233:in `tok!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:688:in `block'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:708:in `block_child'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:700:in `block_contents'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:689:in `block'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:708:in `block_child'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:700:in `block_contents'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:689:in `block'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:681:in `ruleset'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:707:in `block_child'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:697:in `block_contents'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/exec/base.rb:50:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/exec/base.rb:18:in `parse!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/bin/scss:13:in `<top (required)>'
-C:/Ruby25-x64/bin/scss:23:in `load'
-C:/Ruby25-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    &amp\": expected \"{\", was \";\"\A         on line 17 of nav-menu.component.scss\A \A 12:       margin-right: 10px;\A 13:     }\A 14:     &&amp\A 15:     .link-active a,\A 16:     &amp\A 17:   ;\A 18:     .link-active a:hover,\A 19:     &amp\A 20:   ;\A 21:     .link-active a:focus {\A 22:       background-color: #4189C7;"; }
+/*# sourceMappingURL=nav-menu.component.css.map */
