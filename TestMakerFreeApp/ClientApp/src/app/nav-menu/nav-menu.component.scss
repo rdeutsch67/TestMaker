@@ -19,17 +19,19 @@
     top: 0px;
     width: 100%;
     min-width: 180px;
+
     .navbar {
       border-radius: 5px 5px 5px 5px;
       border-width: 5px;
-      height: 80px;
+      height: 60px;
 
       ul {
         float: left;
       }
+
       li {
         float: left;
-        font-size: 15px;
+        font-size: 16px;
         margin: 6px;
         a {
           padding: 10px 16px;

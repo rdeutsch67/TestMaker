@@ -1,35 +1,35 @@
 <div class="main-nav">
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-  <a class="navbar-image" [routerLink]="['/home']">
-    <img src= "/dist/logo.png" alt="TestMaker" />
-  </a>
-  <a class="navbar-brand" [routerLink]='["/"]' href="#" (click)='collapse()'> TestMaker</a>
-  <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false"
-          aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="isCollapsed" aria-controls="navbarTogglerDemo02">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!--<quiz-search class="search-navmenu" placeholder="Type here..."></quiz-search>-->
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02" [ngbCollapse]="isCollapsed">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" [routerLinkActive]="['link-active']" (click)='collapse()'>
-        <a class="nav-link" [routerLink]="['/about']">
-          <span class='glyphicon glyphicon-info-sign'></span> About
-        </a>
-      </li>
-      <li [routerLinkActive]="['link-active']" (click)='collapse()'>
-        <a class="nav-link" [routerLink]="['/login']">
-          <span class='glyphicon glyphicon-log-in'></span> Login
-        </a>
-      </li>
-      <li [routerLinkActive]="['link-active']" (click)='collapse()'>
-        <a class="nav-link" [routerLink]="['/quiz/create']">
-          <span class='glyphicon glyphicon-log-in'></span> Create Quiz
-        </a>
-      </li>
-    </ul>
-    <quiz-search class="search-header" placeholder="Type here..."></quiz-search>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-image" [routerLink]="['/home']">
+      <img src= "/dist/logo.png" alt="TestMaker" />
+    </a>
+    <a class="navbar-brand" [routerLink]='["/"]' href="#" (click)='collapse()'>TestMaker</a>
+    <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false"
+            aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="isCollapsed" aria-controls="navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<quiz-search class="search-navmenu" placeholder="Type here..."></quiz-search>-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" [routerLinkActive]="['link-active']" (click)='collapse()'>
+          <a class="nav-link" [routerLink]="['/about']">
+            <span class='glyphicon glyphicon-info-sign'></span> About
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" (click)='collapse()'>
+          <a class="nav-link" [routerLink]="['/login']">
+            <span class='glyphicon glyphicon-log-in'></span> Login
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" (click)='collapse()'>
+          <a class="nav-link" [routerLink]="['/quiz/create']">
+            <span class='glyphicon glyphicon-log-in'></span> Create Quiz
+          </a>
+        </li>
+      </ul>
+      <quiz-search class="search-header" placeholder="Type here..."></quiz-search>
+    </div>
+  </nav>
 </div>
 
 

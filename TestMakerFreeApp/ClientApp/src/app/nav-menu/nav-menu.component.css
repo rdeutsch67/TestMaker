@@ -14,12 +14,12 @@
     .main-nav .navbar {
       border-radius: 5px 5px 5px 5px;
       border-width: 5px;
-      height: 80px; }
+      height: 60px; }
       .main-nav .navbar ul {
         float: left; }
       .main-nav .navbar li {
         float: left;
-        font-size: 15px;
+        font-size: 16px;
         margin: 6px; }
         .main-nav .navbar li a {
           padding: 10px 16px;

@@ -1,8 +1,20 @@
 ul.quizzes li {
-  color: #1814cb;
+  color: #1023cb;
   cursor: pointer;
 }
 
-ul.quizzes li.selected {
-  background-color: rgba(41, 66, 129, 0.2);
+ul.quizzes li {
+  list-style-type: disc;
+}
+
+/* ab 768px Breite */
+@media (min-width: 768px) {
+  ul.quizzes li {
+    color: #1023cb;
+    cursor: pointer;
+  }
+
+  ul.quizzes li {
+    list-style-type: circle;
+  }
 }

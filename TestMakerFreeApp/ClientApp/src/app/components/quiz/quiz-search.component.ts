@@ -1,4 +1,6 @@
-import { Component, Input } from "@angular/core";
+import {Component, Inject, Input, ViewEncapsulation} from "@angular/core";
+import {ActivatedRoute, Router} from "@angular/router";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: "quiz-search",
