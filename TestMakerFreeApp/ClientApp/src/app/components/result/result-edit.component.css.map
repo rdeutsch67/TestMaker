@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,IAAK;EACH,KAAK,EAHM,uBAAuB;;AAMpC,qBAAsB;EACpB,SAAS,EAAE,KAAK",
+"mappings": "AAEA,IAAK;EACH,KAAK,EAHM,uBAAuB;;AAMpC,YAAa;EACX,KAAK,EAAE,GAAG;EACV,yBAA0B;IAF5B,YAAa;MAGT,KAAK,EAAE,IAAI;EAEb,qBAAS;IACP,UAAU,EAAE,KAAK;EAEnB,mBAAO;IACL,SAAS,EAAE,KAAK;EAElB,sBAAU;IACR,UAAU,EAAE,IAAI",
 "sources": ["result-edit.component.scss"],
 "names": [],
 "file": "result-edit.component.css"

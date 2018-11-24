@@ -10,10 +10,11 @@
   </div>
   <div>
     <input *ngIf="editMode" type="button" value="Apply Changes"
-           (click)="onSubmit(question)" />
+           (click)="onSubmit(question)" class="btn btn-success"/>
     <input *ngIf="!editMode" type="button" value="Create the Question!"
-           (click)="onSubmit(question)" />
-    <input type="button" value="Cancel" (click)="onBack()" />
+           (click)="onSubmit(question)" class="btn btn-success"/>
+    <input type="button" value="Cancel" (click)="onBack()"
+           class="btn btn-secondary"/>
   </div>
   <answer-list *ngIf="editMode" [question]="question"></answer-list>
 </div>

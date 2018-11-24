@@ -35,7 +35,7 @@ export class ResultEditComponent {
     }
     else {
       this.result.QuizId = id;
-      this.title = "Create a new Question";
+      this.title = "Create a new Result";
     }
   }
 

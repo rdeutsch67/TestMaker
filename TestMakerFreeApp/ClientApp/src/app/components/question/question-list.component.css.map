@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,eAAgB;EACd,SAAS,EAAE,KAAK;;AAGlB,kBAAmB;EACjB,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,iBAAiB;;AAI/B,8BAA+B;EAC7B,gBAAgB,EAAE,yBAAyB",
+"mappings": "AAAA,cAAc;EACZ,KAAK,EAAE,IAAI;;AAGb,eAAgB;EACd,SAAS,EAAE,KAAK;;AAGlB,kBAAmB;EACjB,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,iBAAiB;;AAI/B,8BAA+B;EAC7B,gBAAgB,EAAE,yBAAyB",
 "sources": ["question-list.component.scss"],
 "names": [],
 "file": "question-list.component.css"

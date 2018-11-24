@@ -5,16 +5,23 @@
       <thead>
       <tr>
         <th>Text</th>
-        <th>Options</th>
+        <th></th>
+        <th></th>
       </tr>
       </thead>
       <tbody>
       <tr *ngFor="let question of questions">
         <td>{{question.Text}}</td>
-        <td><input type="button" value="Edit"
-                   (click)="onEdit(question)" />
-            <input type="button" value="Delete"
-                   (click)="onDelete(question)" /></td>
+        <td>
+          <input type="button" value="Edit"
+                 (click)="onEdit(question)"
+                 class="btn btn-sm btn-warning"/>
+        </td>
+        <td>
+          <input type="button" value="Delete"
+                 (click)="onDelete(question)"
+                 class="btn btn-sm btn-danger"/>
+        </td>
       </tr>
       </tbody>
     </table>
