@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url(../node_modules/font-awesome/css/font-awesome.css);
+@import url(../node_modules/bootstrap/dist/css/glyphicon.css);
 :root {
   --blue: #033C73;
   --indigo: #6610f2;
