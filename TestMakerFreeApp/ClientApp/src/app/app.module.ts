@@ -20,6 +20,7 @@ import {ResultListComponent} from "./components/result/result-list.component";
 import {ResultEditComponent} from "./components/result/result-edit.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {QuizSearchComponent} from "./components/quiz/quiz-search.component";
+/*import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';*/
 
 @NgModule({
   declarations: [
@@ -38,10 +39,12 @@ import {QuizSearchComponent} from "./components/quiz/quiz-search.component";
     ResultListComponent,
     AboutComponent,
     LoginComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    /*FontAwesomeModule,*/
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
+    /*FontAwesomeModule,*/
     HttpClientModule,
     FormsModule,
     NgbModule.forRoot(),

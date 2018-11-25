@@ -7,7 +7,8 @@
         <th>Text</th>
         <th>Min. Value</th>
         <th>Max. Value</th>
-        <th>Options</th>
+        <th></th>
+        <th></th>
       </tr>
       </thead>
       <tbody>
@@ -19,10 +20,16 @@
         <td *ngIf="result.MaxValue === null">N/A</td>
         <td *ngIf="result.MaxValue !== null">
           {{result.MaxValue}}</td>
-        <td><input type="button" value="Edit"
-                   (click)="onEdit(result)" />
+        <td>
+          <input type="button" value="Edit"
+                 (click)="onEdit(result)"
+                 class="btn btn-sm btn-warning"/>
+        </td>
+        <td>
           <input type="button" value="Delete"
-                 (click)="onDelete(result)" /></td>
+                 (click)="onDelete(result)"
+                 class="btn btn-sm btn-danger"/>
+        </td>
       </tr>
       </tbody>
     </table>
@@ -35,7 +42,8 @@
 </div>
 
 <button (click)="onCreate()" class="btn btn-sm btn-primary">
-  <span class="glyphicon glyphicon-plus-sign"></span>
+  <span class="fa fa-plus-circle"></span>
   Add a new Result
 </button>
+
 

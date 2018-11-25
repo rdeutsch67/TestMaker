@@ -13,17 +13,20 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item" [routerLinkActive]="['link-active']" (click)='collapse()'>
           <a class="nav-link" [routerLink]="['/about']">
-            <span class='glyphicon glyphicon-info-sign'></span> About
+            <span class="fa fa-info-circle"></span>
+            About
           </a>
         </li>
         <li [routerLinkActive]="['link-active']" (click)='collapse()'>
           <a class="nav-link" [routerLink]="['/login']">
-            <span class='glyphicon glyphicon-log-in'></span> Login
+            <span class="fa fa-sign-in"></span>
+            Login
           </a>
         </li>
         <li [routerLinkActive]="['link-active']" (click)='collapse()'>
           <a class="nav-link" [routerLink]="['/quiz/create']">
-            <span class='glyphicon glyphicon-log-in'></span> Create Quiz
+            <span class="fa fa-plus-circle"></span>
+            Create Quiz
           </a>
         </li>
       </ul>

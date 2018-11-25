@@ -1,11 +1,12 @@
 .panel {
-  margin-bottom: 10px; }
+  margin-bottom: 12px; }
   .panel .panel-heading {
     color: #fe34a7; }
     .panel .panel-heading .glyphicon {
       float: right;
-      font-size: 41px;
-      color: #d61317; }
+      font-size: 20px;
+      margin-right: 10px;
+      color: #298ad6; }
   .panel .panel-body {
     padding: 0; }
     .panel .panel-body .list-group {
@@ -18,10 +19,13 @@
           background-color: #f5ccef; }
           .panel .panel-body .list-group .list-group-item:hover:before {
             display: inline-block;
+            font-family: 'Font Awesome\ 5 Free';
+            content: "\f25b";
             float: right;
             font-size: 30px;
             margin: 4px 5px 0 0;
-            color: #60a777; }
+            color: #ca22cb;
+            font-weight: 900; }
         .panel .panel-body .list-group .list-group-item img {
           display: block;
           float: left;
@@ -33,14 +37,26 @@
           margin: 0 6px 0 0; }
   .panel.latest .panel-heading {
     background-color: #b0e3f5; }
+    .panel.latest .panel-heading .glyphicon:before {
+      font-family: 'Font Awesome\ 5 Free';
+      content: "\f036";
+      font-weight: 900; }
   .panel.latest .panel-body .list-group .list-group-item:hover {
     background-color: #b0e3f5; }
   .panel.byTitle .panel-heading {
     background-color: #f5e1d1; }
+    .panel.byTitle .panel-heading .glyphicon:before {
+      font-family: 'Font Awesome\ 5 Free';
+      content: "\f039";
+      font-weight: 900; }
   .panel.byTitle .panel-body .list-group .list-group-item:hover {
     background-color: #f5e1d1; }
   .panel.random .panel-heading {
     background-color: #c9f5ad; }
+    .panel.random .panel-heading .glyphicon:before {
+      font-family: 'Font Awesome\ 5 Free';
+      content: "\f037";
+      font-weight: 900; }
   .panel.random .panel-body .list-group .list-group-item:hover {
     background-color: #c9f5ad; }
 

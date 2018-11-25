@@ -1,11 +1,12 @@
 .panel {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   .panel-heading {
     color: #fe34a7;
     .glyphicon {
       float: right;
-      font-size: 41px;
-      color: #d61317;
+      font-size: 20px;
+      margin-right: 10px;
+      color: #298ad6;
     }
   }
 
@@ -21,10 +22,13 @@
           background-color: #f5ccef;
           &:before {
             display: inline-block;
+            font-family: 'Font Awesome\ 5 Free';
+            content: "\f25b";
             float: right;
             font-size: 30px;
             margin: 4px 5px 0 0;
-            color: #60a777;
+            color: #ca22cb;
+            font-weight: 900;
           }
         }
         img {
@@ -43,6 +47,11 @@
   &.latest {
     .panel-heading {
       background-color: #b0e3f5;
+      .glyphicon:before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f036";
+        font-weight: 900;
+      }
     }
     .panel-body {
       .list-group {
@@ -57,6 +66,11 @@
   &.byTitle {
     .panel-heading {
       background-color: #f5e1d1;
+      .glyphicon:before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f039";
+        font-weight: 900;
+      }
     }
     .panel-body {
       .list-group {
@@ -71,6 +85,11 @@
   &.random {
     .panel-heading {
       background-color: #c9f5ad;
+      .glyphicon:before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f037";
+        font-weight: 900;
+      }
     }
     .panel-body {
       .list-group {

@@ -5,8 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url(../node_modules/font-awesome/css/font-awesome.css);
-@import url(../node_modules/bootstrap/dist/css/glyphicon.css);
+@import url(../node_modules/@fortawesome/fontawesome-free/css/all.css);
 :root {
   --blue: #033C73;
   --indigo: #6610f2;
@@ -6877,5 +6876,6 @@ a.text-dark:hover, a.text-dark:focus {
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '../node_modules/bootswatch/dist/sketchy/bootswatch';
 */
+/*@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";*/
 
 /*# sourceMappingURL=styles.css.map */
