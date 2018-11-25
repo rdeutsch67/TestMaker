@@ -14,19 +14,19 @@
       <ul class="navigation">
         <li class="active">
           <a data-toggle="tab" href="#description">
-            <span class="fa fa-user"></span>
+            <i class="fa fa-user"></i>
             &nbsp; Beschreibung
           </a>
         </li>
         <li>
           <a data-toggle="tab" href="#stats">
-            <span class="fa fa-chart-bar"></span>
+            <i class="fa fa-chart-bar"></i>
             &nbsp; Stats
           </a>
         </li>
         <li>
           <a data-toggle="tab" href="#share">
-            <span class="fa fa-share"></span>
+            <i class="fa fa-share"></i>
             &nbsp; Share
           </a>
         </li>
@@ -47,21 +47,21 @@
       <div class="commands">
         <a [routerLink]="['/quiz', quiz.Id, 'take']"
            class="btn btn-success">
-          <span class="fa fa-graduation-cap"></span>
+          <i class="fas fa-graduation-cap"></i>
           &nbsp; Take the Test!
         </a>
         <a [routerLink]="['/home']"
            class="btn btn-primary">
-          <span class="fa fa-arrow-left"></span>
+          <i class="fa fa-arrow-left"></i>
           &nbsp; Back
         </a>
         <div class="edit">
           <button (click)="onEdit()" class="btn btn-sm btn-warning">
-            <span class="fa fa-edit"></span>
+            <i class="fa fa-edit"></i>
             Create the Quiz!
           </button>
           <button (click)="onDelete()" class="btn btn-sm btn-danger">
-            <span class="fa fa-trash"></span>
+            <i class="fa fa-trash"></i>
             Delete
           </button>
         </div>

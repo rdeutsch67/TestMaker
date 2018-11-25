@@ -29,15 +29,15 @@
   </div>
   <div class="form-group commands">
     <button *ngIf="editMode" (click)="onSubmit(quiz)" class="btn btn-sm btn-success">
-      <span class="fa fa-save"></span>
+      <i class="fa fa-save"></i>
       Apply Changes
     </button>
     <button *ngIf="!editMode" (click)="onSubmit(quiz)" class="btn btn-sm btn-success">
-      <span class="fa fa-plus-circle"></span>
+      <i class="fa fa-plus-circle"></i>
       Create the Quiz!
     </button>
     <button (click)="onBack()" class="btn btn-sm btn-secondary">
-      <span class="fa fa-arrow-left"></span>
+      <i class="fa fa-arrow-left"></i>
       Cancel
     </button>
   </div>
