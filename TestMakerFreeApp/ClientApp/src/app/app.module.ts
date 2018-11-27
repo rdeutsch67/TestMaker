@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -20,7 +20,6 @@ import {ResultListComponent} from "./components/result/result-list.component";
 import {ResultEditComponent} from "./components/result/result-edit.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {QuizSearchComponent} from "./components/quiz/quiz-search.component";
-/*import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';*/
 
 @NgModule({
   declarations: [
@@ -39,30 +38,29 @@ import {QuizSearchComponent} from "./components/quiz/quiz-search.component";
     ResultListComponent,
     AboutComponent,
     LoginComponent,
-    PageNotFoundComponent,
-    /*FontAwesomeModule,*/
+    PageNotFoundComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
-    /*FontAwesomeModule,*/
+    BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),
     HttpClientModule,
     FormsModule,
     NgbModule.forRoot(),
+    ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent, pathMatch: 'full' },
-      { path: 'quiz/create', component: QuizEditComponent },
-      { path: 'quiz/edit/:id', component: QuizEditComponent },
-      { path: 'quiz/:id', component: QuizComponent },
-      { path: 'question/create/:id', component: QuestionEditComponent },
-      { path: 'question/edit/:id', component: QuestionEditComponent },
-      { path: 'answer/create/:id', component: AnswerEditComponent },
-      { path: 'answer/edit/:id', component: AnswerEditComponent },
-      { path: 'result/create/:id', component: ResultEditComponent },
-      { path: 'result/edit/:id', component: ResultEditComponent },
-      { path: 'about', component: AboutComponent },
-      { path: 'login', component: LoginComponent },
-      { path: '**', component: PageNotFoundComponent }
+      {path: '', redirectTo: 'home', pathMatch: 'full'},
+      {path: 'home', component: HomeComponent, pathMatch: 'full'},
+      {path: 'quiz/create', component: QuizEditComponent},
+      {path: 'quiz/edit/:id', component: QuizEditComponent},
+      {path: 'quiz/:id', component: QuizComponent},
+      {path: 'question/create/:id', component: QuestionEditComponent},
+      {path: 'question/edit/:id', component: QuestionEditComponent},
+      {path: 'answer/create/:id', component: AnswerEditComponent},
+      {path: 'answer/edit/:id', component: AnswerEditComponent},
+      {path: 'result/create/:id', component: ResultEditComponent},
+      {path: 'result/edit/:id', component: ResultEditComponent},
+      {path: 'about', component: AboutComponent},
+      {path: 'login', component: LoginComponent},
+      {path: '**', component: PageNotFoundComponent}
     ])
   ],
   providers: [],
